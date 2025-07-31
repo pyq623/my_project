@@ -1,0 +1,44 @@
+{
+  "input_channels": 6,
+  "num_classes": 7,
+  "stages": [
+    {
+      "blocks": [
+        {
+          "type": "DWSepConv",
+          "kernel_size": 3,
+          "expansion": 1,
+          "has_se": false,
+          "se_ratios": 0,
+          "skip_connection": false,
+          "stride": 1,
+          "activation": "ReLU6"
+        }
+      ],
+      "channels": 8
+    },
+    {
+      "blocks": [
+        {
+          "type": "MBConv",
+          "kernel_size": 3,
+          "expansion": 2,
+          "has_se": true,
+          "se_ratios": 0.25,
+          "skip_connection": true,
+          "stride": 2,
+          "activation": "Swish"
+        }
+      ],
+      "channels": 16
+    }
+  ],
+  "constraints": {
+    "max_sram": 1953.125,
+    "min_macs": 0.2,
+    "max_macs": 20.0,
+    "max_params": 5.0,
+    "max_peak_memory": 200.0,
+    "max_latency": 100
+  }
+}

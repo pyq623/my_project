@@ -1,0 +1,21 @@
+search_space:
+  stages: [2, 3, 4, 5]
+  conv_types: ["DWSepConv", "MBConv", "DpConv", "SeSepConv", "SeDpConv"]
+  kernel_sizes: [3, 5, 7]
+  strides: [1, 2]
+  skip_connection: [True, False]
+  activations: ["ReLU6", "LeakyReLU", "Swish"]
+  expansions: [1, 2, 3, 4, 6]
+  channels: [8, 16, 24, 32]
+  has_se: [True, False]
+  se_ratios: [0, 0.25, 0.5]
+  se_activations: ["Sigmoid", "HardSigmoid"]  
+  blocks_per_stage: [1, 2, 3]
+  
+constraints:
+  max_macs: 20e6
+  min_macs: 2e5
+  max_sram: 2000e3
+  max_params: 5e6
+  max_peak_memory: 200e6
+  max_latency: 100  # 单位为毫秒
