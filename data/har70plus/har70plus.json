@@ -1,0 +1,11 @@
+{
+    "label_dictionary": {
+        "0": ["walking"],
+        "1": ["shuffling"],
+        "2": ["stairs", "ascending"],
+        "3": ["stairs", "descending"],
+        "4": ["standing"],
+        "5": ["sitting"],
+        "6": ["lying"]
+    }
+}
