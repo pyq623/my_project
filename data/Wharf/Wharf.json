@@ -1,0 +1,18 @@
+{
+    "label_dictionary": {
+        "0": ["brush", "teeth"],
+        "1": ["climb", "stairs"],
+        "2": ["comb", "hair"],
+        "3": ["descend", "stairs"],
+        "4": ["drink", "glass"],
+        "5": ["eat", "meat"],
+        "6": ["eat", "soup"],
+        "7": ["get", "up", "bed"],
+        "8": ["lie", "down", "bed"],
+        "9": ["pour", "water"],
+        "10": ["sit", "down", "chair"],
+        "11": ["stand", "up", "chair"],
+        "12": ["use", "telephone"],
+        "13": ["walk"]
+    }
+}
