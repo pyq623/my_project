@@ -1,0 +1,32 @@
+{
+    "label_dictionary": {
+        "0": ["right arm swipe to the left"],
+        "1": ["right arm swipe to the right"],
+        "2": ["right hand wave"],
+        "3": ["two hand front clap"],
+        "4": ["right arm throw"],
+        "5": ["cross arms in the chest"],
+        "6": ["basketball shoot"],
+        "7": ["right hand draw x"],
+        "8": ["right hand draw circle (clockwise)"],
+        "9": ["right hand draw circle (counter clockwise)"],
+        "10": ["draw triangle"],
+        "11": ["bowling (right hand)"],
+        "12": ["front boxing"],
+        "13": ["baseball swing from right"],
+        "14": ["tennis right hand forehand swing"],
+        "15": ["arm curl (two arms)"],
+        "16": ["tennis serve"],
+        "17": ["two hand push"],
+        "18": ["right hand knock on door"],
+        "19": ["right hand catch an object"],
+        "20": ["right hand pick up and throw"],
+        "21": ["jogging in place"],
+        "22": ["walking in place"],
+        "23": ["sit to stand"],
+        "24": ["stand to sit"],
+        "25": ["forward lunge (left foot forward)"],
+        "26": ["squat (two arms stretch out)"]
+    }
+}
+
