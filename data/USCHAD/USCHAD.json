@@ -1,0 +1,16 @@
+{
+    "label_dictionary": {
+        "0": ["walk", "forward"],
+        "1": ["walk", "left"],
+        "2": ["walk", "right"],
+        "3": ["walk", "upstairs"],
+        "4": ["walk", "downstairs"],
+        "5": ["run", "forward"],
+        "6": ["jump", "up"],
+        "7": ["sit"],
+        "8": ["stand"],
+        "9": ["sleep"],
+        "10": ["elevator", "up"],
+        "11": ["elevator", "down"]
+    }
+}
